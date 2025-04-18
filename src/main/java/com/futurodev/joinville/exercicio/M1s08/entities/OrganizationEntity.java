@@ -19,6 +19,4 @@ public class OrganizationEntity {
     @Column(length = 50)
     private String contact;
 
-    @ManyToOne
-    private ProjectEntity project;
 }
