@@ -22,6 +22,6 @@ public class ProjectEntity {
     @Column(nullable = false)
     private double reduction;
 
-    @OneToMany
+    @ManyToOne
     private OrganizationEntity organization;
 }
