@@ -21,7 +21,7 @@ public class ProjectEntity {
     private String region;
     @Column(nullable = false)
     private double reduction;
-    
-    @ManyToOne
+
+    @OneToMany
     private OrganizationEntity organization;
 }
